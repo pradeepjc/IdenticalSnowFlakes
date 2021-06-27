@@ -1,7 +1,5 @@
 package com.pradeepjc;
 
-import java.util.Random;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -39,9 +37,5 @@ public class Main {
         }
         System.out.println("Snow flakes one and three are identical from right to left");
         return true;
-    }
-    private static int generateRandomInt() {
-        Random random = new Random();
-        return random.nextInt(20);
     }
 }
